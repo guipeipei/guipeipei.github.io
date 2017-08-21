@@ -1,0 +1,448 @@
+/********************************************
+ * Page Name : H5注册页面
+ * Account : Style
+ ********************************************/
+#register {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100%;
+}
+
+#register form {
+    background-color: #f5f5f5
+}
+
+#register form:after {
+    display: none;
+}
+
+#register .mui-input-row {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    height: auto;
+}
+
+#register .mui-input-row::after {
+    display: none;
+}
+
+#register .mui-input-row label {
+    width: 1.33rem;
+    padding: 0.22rem;
+    text-align: center;
+}
+
+#register .mui-input-row label img {
+    width: 0.45rem;
+    vertical-align: middle;
+}
+
+#register .mui-input-row input {
+    width: 55%;
+    float: left;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    text-indent: 0.22rem;
+    font-size: 0.32rem;
+    border-left: 1px solid #eee;
+}
+
+#register .checkbox {
+    padding-left: 0.45rem;
+}
+
+#register .mui-icon-clear {
+    top: 0.26rem;
+}
+
+#register .get_code {
+    display: inline-block;
+    width: 1.64rem;
+    font-size: 0.28rem;
+    padding: 0.11rem 0;
+    margin-top: 0.2rem;
+    background-color: #ddb47f;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#register .checkbox label {
+    font-size: 0.28rem;
+    color: #666;
+    line-height: 0.78rem;
+}
+
+#register .checkbox span {
+    border: 1px solid #666;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#register .mui-icon-eye {
+    width: 0.4rem;
+    top: 0.35rem;
+    right: 0.3rem;
+}
+
+#register .checkbox a {
+    font-size: 0.28rem;
+    color: #b18247;
+}
+
+#register .succeed_img {
+    width: 7rem;
+    margin: 0.5rem auto;
+}
+
+#register .succeed_img img {
+    width: 100%;
+}
+
+#register .submit {
+    display: block;
+    width: 7rem;
+    background-color: #ddb47f;
+    font-size: 0.32rem;
+    line-height: 0.88rem;
+    padding: 0;
+    margin: 0 auto 0.5rem auto;
+}
+
+/********************************************
+ * Page Name : 投资指南详情
+ * Account : Style
+ ********************************************/
+#investment_info {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100%;
+}
+
+#investment_info article {
+    background-color: #fff;
+    padding: 0.24rem;
+    min-height: 5rem;
+}
+
+#investment_info header {
+    margin-bottom: 0.5rem;
+}
+
+#investment_info h1 {
+    padding-top: 0.1rem;
+    margin-bottom: 0;
+    font-size: 0.32rem;
+    line-height: 0.6rem;
+    text-align: center;
+    color: #333;
+}
+
+#investment_info cite {
+    display: block;
+    font-size: 0.24rem;
+    color: #999;
+    font-style: normal;
+    text-align: center;
+}
+
+#investment_info p {
+    width: 100%;
+    font-size: 0.28rem;
+    color: #666;
+    line-height: 1.4em;
+    padding: 0 0.25rem 0.3rem 0.25rem;
+    margin: 0;
+}
+
+#investment_info dd {
+    width: 100%;
+    font-size: 0.28rem;
+    color: #666;
+    line-height: 1.4em;
+    padding: 0 0.25rem 0.2rem 0.25rem;
+    margin: 0;
+    text-indent: 2em;
+}
+
+#investment_info p img {
+    max-width: 100%;
+}
+
+#investment_info .text_body p {
+    text-indent: 2em;
+}
+
+#investment_info .text_body span {
+    color: #333;
+    font-weight: 500;
+}
+
+#investment_info .text_body dt {
+    font-size: 0.30rem;
+    font-weight: 500;
+    padding: 0 0.25rem 0.3rem 0.25rem;
+}
+
+#investment_info footer {
+    margin-top: 0.3rem;
+}
+
+#investment_info footer p {
+    text-align: right;
+    padding: 0 0.25rem 0 0.25rem;
+}
+
+#investment_info .logo {
+    text-align: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+#investment_info .logo h3 {
+    font-size: 0.28rem;
+    font-weight: 400;
+    color: #333;
+    margin-top: 0.25rem;
+}
+
+#investment_info .logo img {
+    width: 1.62rem;
+}
+
+/********************************************
+ * Page Name : 产品路演详情
+ * Account : Style
+ ********************************************/
+#demonstration_info {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100%;
+}
+
+#demonstration_info figure {
+    width: 100%;
+    margin: 0;
+}
+
+#demonstration_info figure iframe {
+    width: 100%;
+    height: 3.98rem;
+}
+
+#demonstration_info figcaption {
+    background-color: #fff;
+    padding: 0.17rem 0.24rem;
+}
+
+#demonstration_info figcaption h2 {
+    font-size: 0.32rem;
+    line-height: 0.48rem;
+    color: #333;
+}
+
+#demonstration_info figcaption cite {
+    display: inline;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    font-style: normal;
+    color: #999;
+}
+
+#demonstration_info figcaption address {
+    display: inline;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    float: right;
+    font-style: normal;
+    color: #999;
+}
+
+#demonstration_info aside {
+    background-color: #fff;
+    margin-top: 0.24rem;
+    padding: 0 0.24rem;
+}
+
+#demonstration_info aside h3 {
+    font-size: 0.24rem;
+    line-height: 0.74rem;
+    color: #333;
+}
+
+#demonstration_info aside p {
+    font-size: 0.24rem;
+    color: #666;
+    line-height: 0.38rem;
+    padding-bottom: 0.36rem;
+}
+
+/********************************************
+ * Page Name : 消息详情页
+ * Account : Style
+ ********************************************/
+#investment_info .other header {
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #eee;
+}
+
+#investment_info .succeed {
+    margin-top: 0.8rem;
+    text-align: center;
+}
+
+/********************************************
+ * Page Name : check复选框
+ * Account : Style
+ ********************************************/
+input[type='checkbox'].checkbix {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+input[type='checkbox'].checkbix + label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    color: inherit;
+    transition: all 250ms cubic-bezier(.4, .0, .23, 1);
+    margin-bottom: .15rem;
+}
+
+input[type='checkbox'].checkbix + label > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .2rem;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: transparent;
+    border: .1rem solid #333;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 250ms cubic-bezier(.4, .0, .23, 1);
+    position: relative;
+}
+
+input[type='checkbox'].checkbix:focus + label > span {
+    outline: 0;
+    border-color: rgb(0, 20, 20);
+    box-shadow: 0 0 0 1px rgba(0, 20, 20, .5);
+}
+
+input[type='checkbox'].checkbix:checked + label > span {
+    background: #5ECD62;
+    border: .1rem solid transparent;
+    animation: reveal 200ms cubic-bezier(.4, .0, .5, 1);
+}
+
+input[type='checkbox'].checkbix:checked + label > span:before {
+    content: "";
+    position: absolute;
+    top: -0.08rem;
+    left: 0.03rem;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transform: rotate(45deg);
+    transform-origin: 0% 100%;
+    animation: checkboxcheck 125ms 50ms cubic-bezier(.1, .0, .1, 1) forwards;
+}
+
+@keyframes reveal {
+    0% {
+        transform: scale(1);
+    }
+    33% {
+        transform: scale(.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes checkboxcheck {
+    0% {
+        width: 0;
+        height: 0;
+        border-color: white;
+        transform: rotate(45deg);
+    }
+    33% {
+        width: .1rem;
+        height: .2rem;
+        transform: rotate(45deg);
+    }
+    100% {
+        width: .1rem;
+        height: .2rem;
+        border-color: white;
+        transform: rotate(45deg);
+    }
+}
+
+/* Size */
+input[type='checkbox'].checkbix[data-size='large'] + label > span {
+    width: 0.3rem;
+    height: 0.3rem;
+}
+
+input[type='checkbox'].checkbix[data-size='large'] + label > span:before {
+    animation: checkboxchecklarge 125ms 50ms cubic-bezier(.1, .0, .1, 1) forwards;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+@keyframes checkboxchecklarge {
+    0% {
+        width: 0;
+        height: 0;
+        border-color: white;
+        transform: rotate(45deg);
+    }
+    33% {
+        width: .1rem;
+        height: .2rem;
+        transform: rotate(45deg);
+    }
+    100% {
+        width: .1rem;
+        height: .2rem;
+        border-color: white;
+        transform: rotate(45deg);
+    }
+}
+
+/* Shape */
+input[type='checkbox'].checkbix[data-shape='circled'] + label > span {
+    border-radius: 100%;
+}
+
+/* Colors */
+input[type='checkbox'].checkbix[data-color='black']:checked + label > span {
+    background: #111;
+}
+
+input[type='checkbox'].checkbix[data-color='blue']:checked + label > span {
+    background: #0074D9;
+}
+
+input[type='checkbox'].checkbix[data-color='red']:checked + label > span {
+    background: #FF4136;
+}
+
+input[type='checkbox'].checkbix[data-color='gray']:checked + label > span {
+    background: #AAAAAA;
+}
+
+input[type='checkbox'].checkbix[data-color='orange']:checked + label > span {
+    background: #FF851B;
+}
+
+img.xiangjue{
+    height:auto;
+    width:auto/9;
+    width:100%;
+    
+}
