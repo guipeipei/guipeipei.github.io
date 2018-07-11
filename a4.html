@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>小V产品示范</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+   <link rel="stylesheet" href="css/mui.css">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+
+   <script src="js/jquery-2.1.1.min.js"></script>
+   <script src="js/fontsizeset.js"></script>
+   <script src="js/mui.min.js"></script>
+  <script>
+    var imgUrl = document.getElementsByTagName("img")[0].src;
+    var lineLink = window.location.href;
+    var descContent = "小V产品示范";
+     var shareTitle = document.title;
+     var appid = '';
+ 
+function shareFriend() {
+	WeixinJSBridge.invoke('sendAppMessage', {
+		"appid": appid,
+		"img_url": imgUrl,
+		"img_width": "640",
+		"img_height": "640",
+		"link": lineLink,
+		"desc": descContent,
+		"title": shareTitle
+	}, function(res) {
+		_report('send_msg', res.err_msg);
+	})
+}
+ 
+function shareTimeline() {
+	WeixinJSBridge.invoke('shareTimeline', {
+		"img_url": imgUrl,
+		"img_width": "640",
+		"img_height": "640",
+		"link": lineLink,
+		"desc": descContent,
+		"title": shareTitle
+	}, function(res) {
+		_report('timeline', res.err_msg);
+	});
+}
+ 
+function shareWeibo() {
+	WeixinJSBridge.invoke('shareWeibo', {
+		"content": descContent,
+		"url": lineLink,
+	}, function(res) {
+		_report('weibo', res.err_msg);
+	});
+}
+// 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。
+document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+	// 发送给好友
+	WeixinJSBridge.on('menu:share:appmessage', function(argv) {
+		shareFriend();
+	});
+	// 分享到朋友圈
+	WeixinJSBridge.on('menu:share:timeline', function(argv) {
+		shareTimeline();
+	});
+	// 分享到微博
+	WeixinJSBridge.on('menu:share:weibo', function(argv) {
+		shareWeibo();
+	});
+}, false);
+</script>
+</head>
+<body>
+
+<section id="demonstration_info">
+   <figure>
+
+      <figcaption>
+         <h2>小V产品示范</h2>
+         <cite>发布时间：2017-10-11</cite>
+      </figcaption>
+       <aside>
+		<img class="xiangjue" src="images/x2.jpg">
+      </aside>
+     <iframe frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=n0156tfgdiq&tiny=0&auto=0" allowfullscreen></iframe>
+      <aside>
+		<img class="xiangjue" src="images/x3.jpg">
+      </aside>
+   </figure>
+  
+</section>
+
+<script>
+   $("body").height(window.screen.height);
+   $("iframe").height("3.98rem");
+   $("iframe").width("100%");
+</script>
+</body>
+</html>
